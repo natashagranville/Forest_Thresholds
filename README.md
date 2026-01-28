@@ -3,7 +3,7 @@ Code used for analysis in Global Variation in Forest Thresholds for Biodiversity
 
 Code written by Ben Howes and Natasha Granville
 
-**Forest_Thresholds.zip** contains the following files:
+**Thresholds_scripts.zip** contains the following files:
 
 **01_PrepData**
 

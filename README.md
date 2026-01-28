@@ -3,6 +3,8 @@ Code used for analysis in Global Variation in Forest Thresholds for Biodiversity
 
 Code written by Ben Howes and Natasha Granville
 
+**Forest_Thresholds.zip** contains the following files:
+
 **01_PrepData**
 
 01_01_getPREDICTSdata.R - filters, cleans and formats the 2016 release of the PREDICTS database to obtain studies on arthropods, birds, herptiles and mammals in forest ecoregions. 

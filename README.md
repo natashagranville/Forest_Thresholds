@@ -5,6 +5,7 @@ Code written by Natasha Granville and Ben Howes
 
 **Thresholds_scripts.zip** contains the following files:
 
+
 **01_PrepData**
 
 01_01_getPREDICTSdata.R - filters, cleans and formats the 2016 release of the PREDICTS database to obtain studies on arthropods, birds, herptiles and mammals in forest ecoregions. 
@@ -32,6 +33,7 @@ Code written by Natasha Granville and Ben Howes
 01_12_prepModelData.R - combines all data that will go into the piecewise models. This includes the compositional similarity and geographic distance between highly forested and deforested sites, as well as the landscape-scale forest cover data. Arcsin square root transform the compositional similarity. 
 
 
+
 **02_SegmentedModels**
 
 02_01_chooseScaleOfEffect.R - runs segmented models at each landscape scale and identifies the scale that gives the highest R2 for each study.
@@ -43,11 +45,13 @@ Code written by Natasha Granville and Ben Howes
 02_04_prepAnalysisData.R - formats data for analysis, including whether the study showed a conservation-relevant threshold, the forest cover proportions at which these thresholds were identified, and all explanatory variables for models exploring potential factors affecting threshold presence and position.
 
 
+
 **03_StatisticalAnalysis**
 
 03_01_Analyse_Threshold_Presence.R - runs binomial GLMs testing factors affecting the probability of detecting a threshold.
 
 03_02_Analyse_Threshold_Position.R - runs beta GLMs testing factors affecting the forest cover percentage at which the threshold was identified.
+
 
 
 **04_Figures**
@@ -65,6 +69,7 @@ Code written by Natasha Granville and Ben Howes
 04_06_Lat_ThresholdPosition_Graph.R - plots graph showing the threshold position as a function of the absolute average latitude of the study in which the threshold was detected.
 
 04_07_Scale_Diagram.R - plots figure illustrating the definitions of different scales used in the paper (regional scale, landscape scale and local scale).
+
 
 
 **05_Supplementary**
